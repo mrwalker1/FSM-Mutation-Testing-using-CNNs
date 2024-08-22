@@ -9,9 +9,9 @@ python3 "main.py" {FSM File Directory} {mode} {numberMutsPer} {End mut}
 ### Mode
 mode 1 = Model 
 
-mode 2 = Depth
+mode 2 = Depth-first search
 
-mode 3 = Breath 
+mode 3 = Breath-first search
 
 ### End mut
 True = The mutation will only happen to the last state. 
