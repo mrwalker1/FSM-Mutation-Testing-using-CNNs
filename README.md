@@ -1,5 +1,6 @@
 # FSM Mutation Testing using CNNs
-
+This project uses a CNN for mutation testing for finite state machines (FSM). This works by converting FSM into an image and creating mutation machines along with other 
+orientations of the specification machine. These are then fed into the model to train the model to be able to identify mutation machines. 
 ## Running experiment 
 ```bash 
 python3 "main.py" {FSM File Directory} {mode} {numberMutsPer} {End mut}
